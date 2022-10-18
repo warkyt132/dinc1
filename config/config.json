@@ -1,0 +1,36 @@
+{
+    "SYSTEM": {
+        "dbTables": {},
+        "dbFunctions": {},
+        "dbConnections": {
+            "emdppDb": {
+                "hosts": [
+                    "127.0.0.1",
+                    "192.168.9.74",
+                    "192.168.8.74"
+                ],
+                "port": "5433",
+                "database": "postgres",
+                "user": "postgres",
+                "password": "Lvbnhbq1"
+            }
+        },
+        "dbConfig": {
+            "max": 3,
+            "idleTimeoutMillis": 30000,
+            "connectionTimeoutMillis": 2000
+        },
+        "restConfig": {
+            "dinsService": {
+                "host": "localhost",
+                "port": "3062",
+                "info": {
+                    "name": "/appinfo/fullstatus"
+                },
+                "isrun": {
+                    "name": "/appinfo/isrun"
+                }
+            }
+        }
+    }
+}
